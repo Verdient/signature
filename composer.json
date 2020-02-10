@@ -1,0 +1,26 @@
+{
+    "name": "verdient/signature",
+    "description": "A simple library to work with Web Signature",
+    "type": "library",
+    "keywords": ["signature", "web", "library", "verify"],
+    "homepage": "https://github.com/Verdient/signature",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Verdient.",
+            "email": "fagui.zhu@foxmail.com",
+            "homepage": "https://github.com/Verdient"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Verdient/signature/issues",
+        "source": "https://github.com/Verdient/signature"
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "verdient/chorus": ">=0.0.3"
+    },
+    "autoload": {
+        "psr-4": {"signature\\": "src"}
+    }
+}
