@@ -6,7 +6,7 @@ composer require verdient/signature
 ```
 ## 创建签名实例
 ```php
-use signature\Signature;
+use Verdient\signature\Signature;
 
 /**
  * 签名秘钥
