@@ -25,7 +25,7 @@ $key = '****';
  *     ...
  * ]
  */
-$encoder = 'signature\encoder\HmacEncoder';
+$encoder = 'Verdient\signature\encoder\HmacEncoder';
 
 $sign = new Signature([
 	'key' => $key,
