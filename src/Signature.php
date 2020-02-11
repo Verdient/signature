@@ -1,10 +1,10 @@
 <?php
-namespace signature;
+namespace Verdient\signature;
 
 use chorus\InvalidConfigException;
 use chorus\InvalidParamException;
 use chorus\ObjectHelper;
-use signature\encoder\EncoderInterface;
+use Verdient\signature\encoder\EncoderInterface;
 
 /**
  * Signature
@@ -28,7 +28,7 @@ class Signature extends \chorus\BaseObject
 	 * --------------------
 	 * @author Verdient。
 	 */
-	public $encoder = 'signature\encoder\HmacEncoder';
+	public $encoder = 'Verdient\signature\encoder\HmacEncoder';
 
 	/**
 	 * @var String $_encoder

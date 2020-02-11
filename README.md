@@ -44,5 +44,5 @@ $signature = $sign->sign($data);
 ```
 ## 验证签名
 ```php
-$sign->validate($data, $signature)
+$sign->validate($data, $signature);
 ```

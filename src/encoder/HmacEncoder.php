@@ -1,5 +1,5 @@
 <?php
-namespace signature\encoder;
+namespace Verdient\signature\encoder;
 
 /**
  * HmacEncoder

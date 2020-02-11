@@ -18,9 +18,9 @@
     },
     "require": {
         "php": ">=7.0.0",
-        "verdient/chorus": ">=0.0.3"
+        "verdient/chorus": ">=0.0.5"
     },
     "autoload": {
-        "psr-4": {"signature\\": "src"}
+        "psr-4": {"Verdient\\signature\\": "src"}
     }
 }
