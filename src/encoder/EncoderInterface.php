@@ -9,28 +9,22 @@ namespace Verdient\signature\encoder;
  */
 interface EncoderInterface
 {
-	/**
-	 * encode(String $data, String $key)
-	 * 编码
-	 * ---------------------------------
-	 * @param String $data 待编码的数据
-	 * @param String $key 秘钥
-	 * ------------------------------
-	 * @return String
-	 * @author Verdient。
-	 */
-	public function encode(String $data, String $key): String;
+    /**
+     * 编码
+     * @param string $data 待编码的数据
+     * @param string $key 秘钥
+     * @return string
+     * @author Verdient。
+     */
+    public function encode(string $data, string $key): string;
 
-	/**
-	 * validate(String $data, String $sign, String $key)
-	 * 校验
-	 * -------------------------------------------------
-	 * @param String $data 原始数据
-	 * @param String $sign 签名
-	 * @param String $key 秘钥
-	 * ----------------------------
-	 * @return Bool
-	 * @author Verdient。
-	 */
-	public function validate(String $data, String $sign, String $key): Bool;
+    /**
+     * 校验
+     * @param string $data 原始数据
+     * @param string $sign 签名
+     * @param string $key 秘钥
+     * @return bool
+     * @author Verdient。
+     */
+    public function validate(string $data, string $sign, string $key): bool;
 }
